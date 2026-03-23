@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/ts-circuit-breaker/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-circuit-breaker/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/circuit-breaker)](https://www.npmjs.com/package/@philiprehberger/circuit-breaker)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-circuit-breaker)](LICENSE)
 
 Circuit breaker pattern for fault-tolerant async service calls.
 
