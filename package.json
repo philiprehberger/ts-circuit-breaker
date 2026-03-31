@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/circuit-breaker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Circuit breaker pattern for fault-tolerant async service calls",
   "type": "module",
   "main": "./dist/index.cjs",

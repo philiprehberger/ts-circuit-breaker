@@ -1,9 +1,8 @@
 # @philiprehberger/circuit-breaker
 
 [![CI](https://github.com/philiprehberger/ts-circuit-breaker/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-circuit-breaker/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/circuit-breaker)](https://www.npmjs.com/package/@philiprehberger/circuit-breaker)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-circuit-breaker)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/circuit-breaker.svg)](https://www.npmjs.com/package/@philiprehberger/circuit-breaker)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/ts-circuit-breaker)](https://github.com/philiprehberger/ts-circuit-breaker/commits/main)
 
 Circuit breaker pattern for fault-tolerant async service calls.
 
@@ -95,6 +94,24 @@ npm test
 npm run typecheck
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/ts-circuit-breaker)
+
+🐛 [Report issues](https://github.com/philiprehberger/ts-circuit-breaker/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/ts-circuit-breaker/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
