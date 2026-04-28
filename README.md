@@ -65,6 +65,23 @@ const cb = circuitBreaker(fetchUser, {
 });
 ```
 
+### Admin & Stats
+
+```ts
+import { circuitBreaker } from '@philiprehberger/circuit-breaker';
+
+const cb = circuitBreaker(fetchUser);
+
+cb.forceOpen();   // trip the breaker manually
+cb.forceClose();  // close it again
+
+if (cb.isOpen()) {
+  return cachedUser;
+}
+
+console.log(cb.stats); // { failures, successes, lastFailureAt }
+```
+
 ## API
 
 | Function / Property | Description |
@@ -72,7 +89,11 @@ const cb = circuitBreaker(fetchUser, {
 | `circuitBreaker(fn, options?)` | Wrap an async function with circuit breaker logic |
 | `.fire(...args)` | Call the wrapped function (respects circuit state) |
 | `.state` | Current circuit state: `'closed'`, `'open'`, or `'half-open'` |
-| `.reset()` | Force the circuit back to closed state |
+| `.stats` | `{ failures, successes, lastFailureAt }` snapshot |
+| `.isOpen()` / `.isClosed()` / `.isHalfOpen()` | State predicates |
+| `.forceOpen()` | Force the circuit open |
+| `.forceClose()` | Force the circuit closed |
+| `.reset()` | Reset to closed state and clear stats |
 
 ### Options
 

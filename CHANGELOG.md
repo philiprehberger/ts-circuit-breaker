@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0
+
+- Add `forceOpen()` and `forceClose()` admin methods
+- Add `stats` getter exposing `{ failures, successes, lastFailureAt }`
+- Add `isOpen()` / `isClosed()` / `isHalfOpen()` state predicates
+- `reset()` now also clears success and last-failure stats
+
 ## 0.1.2
 
 - Standardize README to 3-badge format with emoji Support section
